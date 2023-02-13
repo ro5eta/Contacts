@@ -14,10 +14,15 @@ A simple contacts agenda to store and manage your contacts
 
 ## Database tables:
 ### Contacts table
-
+> CREATE TABLE Contacts (
+> 	Phone_Number int,
+> 	Name varchar(100),
+> 	Email varchar(100),
+>   PRIMARY KEY (Phone_Number)
+> );
 ### Favourites table
 > CREATE TABLE Favourites (
 > 	Phone_Number int,
->     PRIMARY KEY (Phone_Number),
+>   PRIMARY KEY (Phone_Number),
 > 	CONSTRAINT PNmuber FOREIGN KEY (Phone_Number) REFERENCES Contacts (Phone_Number)
 > );
