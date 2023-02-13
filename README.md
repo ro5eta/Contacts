@@ -2,7 +2,7 @@
 A simple contacts agenda to store and manage your contacts
 
 ## Made with:
-- XAMPP (Apache Web Server + MYSQLDatabase)
+- XAMPP (Apache Web Server + MySQLDatabase)
 - NodeJS (HTTP request + MySQL queries)
 - HTML, CSS & JavaScript
 
