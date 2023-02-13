@@ -8,6 +8,6 @@ A simple contacts agenda to store and manage your contacts
 
 ## Main functions:
 - view contacts
-- viw favourite contacts
+- view favourite contacts
 - manage contact (add, edit & delete)
 - set favourite contacts (add & delete)
