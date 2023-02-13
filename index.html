@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contacts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="contacts.js"></script>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body id="body">
+
+  <header id="header">
+    <h1>Contacts</h1>
+    <div class="left-header" id="left-header">
+    </div>
+    <div class="middle-header">
+        <div class="middle-header-left" id="middle-header-left">
+          <button class="regular" id="bContacts" onclick="javascript:showContacts()">Contacts</button>
+        </div>
+        <div class="middle-header-right" id="middle-header-right">
+          <button class="regular" id="bFavourites" onclick="javascript:showFavourites()">Favourites</button>
+        </div>
+      </div>
+    <div class="right-header" id="right-header">
+      <button id="bCreateContact" onclick="javascript:newContact()" style="margin-left: 10px;"></button>
+    </div>
+  </header>
+
+  
+<div id="newcontact" class="newcontact" style="display: none;">
+  <h2 style="display: inline-block; vertical-align: middle;" class="formtitle">New contact</h2><button id="closeNewContact" onclick="javascript:hideCreateContact()"></button><br>
+  <div class="inputform">
+  <form onsubmit="return false;">
+    <input type="text" required="required" placeholder="Insert phone number" value="" id="phone" minlength="9" maxlength="9"><br>
+    <hr class="hr-inputform">
+    <input type="text" required="required" placeholder="Insert contact name" value="" id="name"><br>
+    <hr class="hr-inputform">
+    <input type="text" placeholder="Insert email" value="" id="email"><br>
+    <input type="submit" value="Create contact" onclick="javascript:createContact()">
+  </form>
+  </div>
+</div>
+
+<div id="editcontact" class="editcontact" style="display: none;">
+  <label id="previous" style="display: none;"></label>
+  <h2 style="display: inline-block; vertical-align: middle;" class="formtitle">Edit contact</h2><button id="closeEditContact" onclick="javascript:hideEditContact()"></button><br>
+  <div class="inputform">
+  <form onsubmit="return false;">
+    <input type="text" required="required" placeholder="Insert phone number" value="" id="edphone" minlength="9" maxlength="9"><br>
+    <hr class="hr-inputform">
+    <input type="text" required="required" placeholder="Insert contact name" value="" id="edname" maxlength="20"><br>
+    <hr class="hr-inputform">
+    <input type="text" placeholder="Insert email" value="" id="edemail"><br>
+    <input type="submit" value="Edit contact" onclick="javascript:editContact()">
+  </form>
+  </div>
+</div>
+
+
+  <div id="contacts">
+  </div>
+  <div id="favourites" style="display: none;">
+  </div>
+  <footer>
+    Created by ro5eta on <a href="https://github.com/ro5eta">Github</a>
+  </footer>
+  <div class="popup" id="popup" onclick="hidePopup()">
+</div>
+</body>
+</html>
