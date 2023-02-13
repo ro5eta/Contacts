@@ -21,8 +21,8 @@ A simple contacts agenda to store and manage your contacts
 >   PRIMARY KEY (Phone_Number)
 > );
 ### Favourites table
-> CREATE TABLE Favourites (
-> 	Phone_Number int,
->   PRIMARY KEY (Phone_Number),
-> 	CONSTRAINT PNmuber FOREIGN KEY (Phone_Number) REFERENCES Contacts (Phone_Number)
-> );
+  CREATE TABLE Favourites (
+	  Phone_Number int,
+    PRIMARY KEY (Phone_Number),
+	  CONSTRAINT PNmuber FOREIGN KEY (Phone_Number) REFERENCES Contacts (Phone_Number)
+  );
