@@ -12,7 +12,7 @@ A simple contacts agenda to store and manage your contacts
 - manage contact (add, edit & delete)
 - set favourite contacts (add & delete)
 
-## Database tables:
+## Database tables: creation code
 ### Contacts table
 		CREATE TABLE Contacts (
 			Phone_Number int,
