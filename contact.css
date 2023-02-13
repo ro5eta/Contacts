@@ -1,0 +1,398 @@
+body{
+    text-align: center;
+    font-family: 'Helvetica';
+    background-color: #f3f3f3;
+}
+
+header{
+    margin-bottom: 25px;
+    position: sticky;
+      top: 0;
+      width: 100%;
+      height: 130px;
+      padding: 10px 16px;
+      background: #f3f3f3;
+      color: #000;  
+      vertical-align: middle;
+      box-shadow: 0px 10px 15px #efefef;
+      z-index: 9999;
+      box-sizing: border-box;
+}
+
+.bNothing{
+    background-color: #f3f3f3;
+    color: #f3f3f3;
+    box-shadow: none;
+    border: 0px;
+}
+
+.left-header{
+    display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-left: 20px;
+  color: #fff;
+    margin-left: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: #f3f3f3;
+}
+
+.middle-header{
+    display: inline-block;
+  vertical-align: middle;
+}
+
+.middle-header-left{
+    display: inline-block;
+  vertical-align: middle;
+  background-color: #d4d4d4;
+  width: fit-content;
+    height: 20px;
+    padding:5px;
+    border: 0px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.middle-header-right{
+    display: inline-block;
+  vertical-align: middle;
+  background-color: #f3f3f3;
+  width: fit-content;
+    height: 20px;
+    padding:5px;
+    border: 0px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.right-header{
+    display: inline-block;
+  vertical-align: middle;
+  float: right;
+  margin-right: 20px;
+  width: 35px;
+}
+
+.regular {
+    width: fit-content;
+    height: 20px;
+    background-color: #3478F5;
+    background-image: linear-gradient(#3478F5, #1557d2);
+    color: white;
+    padding-left: 5px;
+    border: 0px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+.regular:hover {
+    background-image: linear-gradient(#79a4f3, #3478F5);
+    border-radius: 4px;
+    color: #fff;
+}
+
+
+.bDel{
+    background-image: url('./imgs/trash2.svg');
+    height: 25px;
+    width: 25px;
+    background-color: #f3f3f3;
+    border: 0px;
+}
+
+.bDel:hover{
+    background-image: url('./imgs/trash.svg');
+}
+
+.bDelF{
+    background-image: url('./imgs/star-off.svg');
+    height: 25px;
+    width: 25px;
+    background-color: #f3f3f3;
+    border: 0px;
+}
+
+.bDelF:hover{
+    background-image: url('./imgs/star-off2.svg');
+}
+
+#bCreateContact{
+    background-image: url('./imgs/add.svg');
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    background-color: #f3f3f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#newcontact{
+    z-index: 9998;
+    background-color: rgba(235, 235, 235,0.95);
+    position: sticky;
+    top: 150px;
+    margin-bottom: 50px;
+    margin: auto;
+    border-radius: 12px;
+    height: 220px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#closeNewContact{
+    float: right;
+    background-image: url('./imgs/close.svg');
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    background-color: rgba(235, 235, 235,0);
+    margin-right: 5px;
+}
+
+#editcontact{
+    z-index: 9998;
+    background-color: rgba(235, 235, 235,0.95);
+    position: sticky;
+    top: 150px;
+    margin-bottom: 50px;
+    margin: auto;
+    border-radius: 12px;
+    height: 220px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#closeEditContact{
+    float: right;
+    background-image: url('./imgs/close.svg');
+    height: 35px;
+    width: 35px;
+    border: 0px;
+    background-color: rgba(235, 235, 235,0);;
+    margin-right: 5px;
+}
+
+
+
+
+.inputform{
+    background-color: white;
+    width:1fr;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-top: 0.5px solid #a9a9a9;
+    border-bottom: 0.5px solid #a9a9a9;
+}
+
+.hr-inputform{
+    width: 100%;
+    border: 0.5px solid #a9a9a9;
+}
+
+form{
+    margin-top: 0px;
+}
+
+.inputs{
+    margin-bottom: 100px;
+}
+
+input[type=text],
+select {
+    text-align: left;
+    color: #a9a9a9;
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 0px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 20px;
+}
+
+input[type=password],
+select {
+    width: 65%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#password {
+    width: 65%;
+}
+
+input[type=submit] {
+    width: fit-content;
+    height: 20px;
+    background-color: #3478F5;
+    background-image: linear-gradient(#3478F5, #1557d2);
+    color: white;
+    padding-left: 5px;
+    margin-top: 35px;
+    border: 0px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(#79a4f3, #3478F5);
+    border-radius: 4px;
+    color: #fff;
+    height: 20px;
+}
+
+#contacts{
+    margin: auto;
+    margin-top: 35px;
+}
+
+hr {
+    border: 0.5px solid rgb(169, 169, 169);
+    width: 760px;
+  }
+
+  hr .favline{
+    width: 680px;
+  }
+
+.contact-item{
+    display: grid;
+    max-width: fit-content;
+    margin: auto;
+    grid-template-columns: 80px 250px 100px 250px 40px 40px;
+    margin-bottom: 10px;
+}
+
+#favourites{
+    margin: auto;
+    margin-top: 35px;
+}
+
+.favourite-item{
+    display: grid;
+    max-width: fit-content;
+    margin: auto;
+    grid-template-columns: 250px 100px 250px 80px;
+    margin-bottom: 10px;
+}
+
+
+.bFav{
+    background-image: url('./imgs/star.svg');
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+.bFav:hover{
+    background-image: url('./imgs/star2.svg');
+}
+
+.bfav:active{
+    background-color: #d4d4d4;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.bEdit{
+    background-image: url('./imgs/edit.svg');
+    height: 20px;
+    width: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+.bEdit:active{
+    background-color: #d4d4d4;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+
+.formtitle{
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    z-index: 9997;
+    margin-top: 50px;
+    padding: 50px;
+      height: 130px;
+      background: #f3f3f3;
+      color: #000;  
+      vertical-align: middle;
+      text-align: center;
+      box-sizing: border-box;
+}
