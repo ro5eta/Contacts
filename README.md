@@ -27,5 +27,5 @@ A simple contacts agenda to store and manage your contacts
 			CONSTRAINT PNmuber FOREIGN KEY (Phone_Number) REFERENCES Contacts (Phone_Number)
 		);
 
-#### Sources
+## Sources
 - Icons: iconer app (icon adjustments by myself)
