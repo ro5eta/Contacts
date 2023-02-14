@@ -7,10 +7,10 @@ A simple contacts agenda to store and manage your contacts
 - HTML, CSS & JavaScript
 
 ## Main functions:
-- view contacts
-- view favourite contacts
-- manage contact (add, edit & delete)
-- set favourite contacts (add & delete)
+- view your contacts
+- view your favourite contacts
+- manage your contacts (add, edit & delete)
+- set your favourite contacts (add & delete)
 
 ## Database tables: creation code
 ### Contacts table
